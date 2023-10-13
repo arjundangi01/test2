@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "category": "typicode"
+    },
+    {
+      "name": "Arjun Dangi",
+      "category": "sport",
+      "id": 2
+    }
+  ]
+}
