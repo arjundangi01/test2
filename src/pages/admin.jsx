@@ -27,7 +27,8 @@ const Admin = () => {
   const onSubmit = (event) => {
     event.preventDefault();
     // console.log(bookObj);
-    dispatch(addBookAction(bookObj))
+    const newObj = {...bookObj,range:parseInt(bookObj.range)}
+    dispatch(addBookAction(newObj))
   }
 
   return (
@@ -41,6 +42,12 @@ const Admin = () => {
         <Select placeholder="Select category" onChange={onChange} name="category" >
           <option value='tech' >Tech</option>
           <option value='sport' >Sport</option>
+        </Select>
+        <FormLabel>Select range</FormLabel>
+
+        <Select placeholder="Select range" onChange={onChange} name="range" >
+          <option value='4' >4</option>
+          <option value='5' >5</option>
         </Select>
         <Button
           onClick={onSubmit}

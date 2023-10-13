@@ -1,14 +1,65 @@
 {
   "books": [
     {
+      "name": "Sachin Singh Chouhan",
+      "category": "sport",
+      "range": "5",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
       "id": 1,
-      "name": "json-server",
-      "category": "typicode"
+      "userName": "Arjun ",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "userHistory": []
     },
     {
-      "name": "Arjun Dangi",
-      "category": "sport",
+      "userName": "arjun",
+      "email": "arjundangi907473@gmail.com",
+      "password": "1234",
+      "userHistory": [],
       "id": 2
+    },
+    {
+      "userName": "arjun8x",
+      "email": "arjundangi@gmail.com",
+      "password": "1234",
+      "userHistory": [],
+      "id": 3
+    },
+    {
+      "userName": "masai",
+      "email": "arjun@gmail.com",
+      "password": "1234",
+      "id": 4
+    }
+  ],
+  "userhistory": [
+    {
+      "id": 1,
+      "type": "income",
+      "category": "salary",
+      "amount": "1200",
+      "date": "12-10-2023",
+      "userId": 1
+    },
+    {
+      "type": "income",
+      "category": "salary",
+      "amount": "1221",
+      "date": "2023-10-14",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "type": "income",
+      "category": "salary",
+      "amount": "1500",
+      "date": "2023-10-14",
+      "userId": 1,
+      "id": 3
     }
   ]
 }
